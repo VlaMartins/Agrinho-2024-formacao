@@ -20,7 +20,7 @@ function calculaTempo(tempoObjetivo) {
     } else {
       return [0, 0, 0, 0];
     }
-  }
+  }  
 
   function atualizaCronometro() {
     document.getElementById("dias0").textContent = calculaTempo(tempo)[0];
@@ -32,6 +32,7 @@ function calculaTempo(tempoObjetivo) {
       // contadores[i].textContent = calculaTempo(tempos[i]);
     }
   }
+  
 
   function comecaCronometro() {
     atualizaCronometro();
